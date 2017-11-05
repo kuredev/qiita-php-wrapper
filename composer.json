@@ -1,0 +1,25 @@
+{
+  "name": "kuredev/qiita-php-wrapper",
+  "type": "library",
+  "description": "PHP Wrapper of Qiita APIv2",
+  "homepage": "https://github.com/kuredev/",
+  "keywords": ["php", "qiita"],
+  "authors":[
+    {
+      "name": "kure",
+      "email": "kuredev@gmail.com"
+    }
+  ],
+  "require": {
+    "palanik/wrapi": "*",
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kuredev\\": "src"
+    }
+  },
+  "license": "MIT"
+}
+
+

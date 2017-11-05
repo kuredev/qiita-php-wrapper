@@ -1,0 +1,114 @@
+{
+  "get.userFollowing":{
+    "method": "GET",
+    "path": "users/:userId/following"
+  },
+  "get.userFollowees":{
+    "method": "GET",
+    "path": "users/:userId/followees"
+  },
+  "delete.userFollowing":{
+    "method": "DELETE",
+    "path": "users/:userId/following"
+  },
+  "put.userFollowing":{
+    "method": "PUT",
+    "path": "users/:userId/following"
+  },
+  "put.itemStock":{
+    "method": "PUT",
+    "path": "items/:itemId/stock"
+  },
+  "get.itemLikes":{
+    "method": "GET",
+    "path": "items/:itemId/likes"
+  },
+  "get.followingTags":{
+    "method": "GET",
+    "path": "users/:userId/following_tags"
+  },
+  "get.userItems":{
+    "method": "GET",
+    "path": "users/:userId/items"
+  },
+  "get.tagsItem":{
+    "method": "GET",
+    "path": "tags/:tagId/items"
+  },
+  "get.itemStockers":{
+    "method": "GET",
+    "path": "items/:itemId/stockers"
+  },
+  "get.userStocks":{
+    "method": "GET",
+    "path": "users/:userId/stocks"
+  },
+  "get.items": {
+    "method": "GET",
+    "path": "items"
+  },
+  "get.item": {
+    "method": "GET",
+    "path": "items/:itemId"
+  },
+  "get.users":{
+    "method": "GET",
+    "path": "users"
+  },
+  "get.tags":{
+    "method": "GET",
+    "path": "tags"
+  },
+  "get.tag":{
+    "method": "GET",
+    "path": "tags/:tagId"
+  },
+  "get.comment":{
+    "method": "GET",
+    "path": "comments/:commentId"
+  },
+  "get.user":{
+    "method": "GET",
+    "path": "users/:userId"
+  },
+  "get.comments":{
+    "method": "GET",
+    "path": "items/:itemId/comments"
+  },
+  "delete.comment":{
+    "method": "DELETE",
+    "path": "comments/:commentId"
+  },
+  "delete.followingTags":{
+    "method": "DELETE",
+    "path": "tags/:tagId/following"
+  },
+  "put.followingTag":{
+    "method": "PUT",
+    "path": "tags/:tagId/following"
+  },
+  "post.comment":{
+    "method": "POST",
+    "path": "items/:itemId/comments"
+  },
+  "delete.itemStock":{
+    "method": "DELETE",
+    "path": "items/:itemId/stock"
+  },
+  "patch.comment":{
+    "method": "PATCH",
+    "path": "comments/:commentId"
+  },
+  "delete.item":{
+    "method": "DELETE",
+    "path": "items/:itemId"
+  },
+  "patch.item":{
+    "method": "POST",
+    "path": "items"
+  },
+  "get.authenticateduserItems":{
+    "method": "GET",
+    "path": "authenticated_user/items"
+  }
+}
