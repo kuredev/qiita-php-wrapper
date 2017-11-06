@@ -23,7 +23,7 @@ try{
     var_dump($qiita->put->userFollowing("kure", json_encode($arr)));
     var_dump($qiita->get->tagsItem("api"));
     $comment = array("body" => "testtest2");
-    var_dump($qiita->post->comment("de955206351cf05a74da", json_encode($comment)));
+    var_dump($qiita->post->comment("xxxxx", json_encode($comment)));
 }catch(Exception $e){
     var_dump($e->getMessage());
 }
