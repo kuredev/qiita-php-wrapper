@@ -1,8 +1,8 @@
 {
   "name": "kuredev/qiita-php-wrapper",
   "type": "library",
-  "description": "PHP Wrapper of Qiita APIv2",
-  "homepage": "https://github.com/kuredev/",
+  "description": "PHP Wrapper for Qiita APIv2",
+  "homepage": "https://github.com/kuredev/qiita-php-wrapper",
   "keywords": ["php", "qiita"],
   "authors":[
     {
