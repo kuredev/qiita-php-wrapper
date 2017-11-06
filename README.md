@@ -30,6 +30,10 @@ try{
 
 ```
 
+# Reference
+
+See src/api.json
+
 # License
 MIT
 
