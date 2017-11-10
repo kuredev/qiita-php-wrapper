@@ -7,6 +7,11 @@ PHP Wrapper for Qiita APIv2
 palanik/wrapi: "*",    
 php: ">=7.0.0"
 
+# Install
+```
+composer require kuredev/qiita-php-wrapper
+```
+
 # Usage
 
 ```
